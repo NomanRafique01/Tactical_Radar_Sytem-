@@ -1,5 +1,8 @@
-# Media assets - excluded from repository push as requested
-*.png
+# Ignore loose images in the root directory
+/*.png
+
+# Allow images in assets
+!assets/*.png
 
 # Processing / OS cache files
 *.class

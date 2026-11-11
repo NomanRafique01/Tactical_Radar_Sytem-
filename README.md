@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header pic.png" width="100%" alt="Tactical Radar System Header" />
+  <img src="assets/header-pic.png" width="220" alt="Tactical Radar System Logo" />
 </p>
 
 <h1 align="center">TACTICAL RADAR SYSTEM</h1>
@@ -131,8 +131,8 @@ The repository contains two primary source files responsible for the embedded fi
 | **`radar_arduino/radar_arduino.ino`** | Embedded Firmware | Arduino IDE | Direct hardware control: sweeps the servo, polls the ultrasonic sensor, performs software I2C communication to the LCD, pulses the buzzer alert, handles target lock state, and streams serial telemetry. |
 | **`RadarSystem_pde.pde`** | Tactical Desktop GUI | Processing 4 | Reads serial data at 9600 baud, renders the circular radar screen, creates phosphor sweep trail effects, draws distance rings (10cm, 20cm, 30cm, 40cm), and provides interactive HUD targeting data. |
 | **`sketch.properties`** | Processing Config | Processing IDE | Configuration file designating the main entrypoint file for the Processing runtime. |
-| **`circuit diagram.png`** | Hardware Schematic | Image Viewer | Complete visual wiring schematic illustrating the wiring between Arduino Uno, HC-SR04, SG90, buzzer, and I2C LCD. |
-| **`header pic.png`** | Project Banner | Image Viewer | Graphical showcase banner of the Tactical Radar System. |
+| **`assets/circuit-diagram.png`** | Hardware Schematic | Image Viewer | Complete visual wiring schematic illustrating the wiring between Arduino Uno, HC-SR04, SG90, buzzer, and I2C LCD. |
+| **`assets/header-pic.png`** | Project Logo / Banner | Image Viewer | Graphical showcase logo of the Tactical Radar System. |
 
 ---
 
@@ -154,7 +154,7 @@ The repository contains two primary source files responsible for the embedded fi
 ## Circuit & Pin Connections
 
 <p align="center">
-  <img src="circuit diagram.png" width="100%" alt="Tactical Radar System Circuit Diagram" />
+  <img src="assets/circuit-diagram.png" width="750" alt="Tactical Radar System Circuit Diagram" />
 </p>
 
 The following pin allocation table is extracted directly from the embedded firmware (`radar_arduino/radar_arduino.ino`). Follow these exact connections to wire your hardware:
