@@ -1,0 +1,7 @@
+# Media assets - excluded from repository push as requested
+*.png
+
+# Processing / OS cache files
+*.class
+.DS_Store
+Thumbs.db
