@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header-pic.png" width="220" alt="Tactical Radar System Logo" />
+  <img src="assets/header-framed.png" width="580" alt="Tactical Radar System Hardware Prototype" />
 </p>
 
 <h1 align="center">TACTICAL RADAR SYSTEM</h1>
@@ -132,7 +132,8 @@ The repository contains two primary source files responsible for the embedded fi
 | **`RadarSystem_pde.pde`** | Tactical Desktop GUI | Processing 4 | Reads serial data at 9600 baud, renders the circular radar screen, creates phosphor sweep trail effects, draws distance rings (10cm, 20cm, 30cm, 40cm), and provides interactive HUD targeting data. |
 | **`sketch.properties`** | Processing Config | Processing IDE | Configuration file designating the main entrypoint file for the Processing runtime. |
 | **`assets/circuit-diagram.png`** | Hardware Schematic | Image Viewer | Complete visual wiring schematic illustrating the wiring between Arduino Uno, HC-SR04, SG90, buzzer, and I2C LCD. |
-| **`assets/header-pic.png`** | Project Logo / Banner | Image Viewer | Graphical showcase logo of the Tactical Radar System. |
+| **`assets/header-framed.png`** | Framed Hardware Showcase | Image Viewer | Pre-rendered static framed showcase of the Tactical Radar System hardware prototype. |
+| **`assets/header-frame.svg`** | Tactical Vector Frame | SVG / Vector | Scalable vector tactical telemetry frame design with status indicators. |
 
 ---
 
