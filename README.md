@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header-framed.png" width="580" alt="Tactical Radar System Hardware Prototype" />
+  <img src="assets/header-framed.png" width="190" alt="Tactical Radar System Hardware Prototype" />
 </p>
 
 <h1 align="center">TACTICAL RADAR SYSTEM</h1>
